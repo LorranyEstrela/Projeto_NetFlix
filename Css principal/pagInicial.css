@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+.center{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    
+}
+.center img {
+    width: 3%;
+}
+.center h1{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin-left: 75%;
+    margin-right: 20%;
+}
+nav li{
+    color: antiquewhite;
+    background-color: red;
+    border: 5px solid red;
+    text-align: center;
+    border-radius:8px;
+}
+#cadastro h2{
+    color: white;
+    text-align: center;
+}
+#cadastro ul{
+    list-style-type: none;
+    
+}
+#cadastro li{
+    text-align: center;
+    background-color: red;
+    margin: 0% 47% ;
+    border-radius: 9px;
+}
+#cadastro{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+footer{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+body{
+    background-image: url(/Img\ para\ sinopse\ do\ filme/polar-new-on-netflix-uk.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trailer{
+    background-color: rgb(73, 71, 71);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}

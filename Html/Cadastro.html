@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body{
+    background-image: url(/img/netflix-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+fieldset{
+    color: white;
+    background-color: black;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+legend{
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Cadastro</legend>
+            <label>Nome:</label>
+            <input type="text" maxlength="20" required/>
+            <br/>
+            <label>Sobrenome:</label>
+            <input type="text" maxlength="20" required>
+            <br/>
+            <label>Email:</label>
+            <input type="email" maxlength="60" required>
+            <br/>
+            <label>Senha:</label>
+            <input type="password" maxlength="15" required>
+            <br/>
+            <label>Telefone:</label>
+            <input type="number" maxlength="20" required>
+            <br/>
+            <label>Gênero</label>
+            <br/>
+            <select>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Prefiro não dizer</option>
+            </select>
+            <br/>
+            <a href="Filmes.html"><input type="submit" value="enviar"></a>
+    </fieldset>
+</body>
+</html>
